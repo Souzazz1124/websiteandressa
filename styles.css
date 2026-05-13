@@ -1,29 +1,29 @@
 *
 {
-    margin: 0;  /*Remover as margens padrão do navegador*/
-    padding: 0; /*Remove os preenchimentos padrão do navegador*/
+    margin: 0;  /Remover as margens padrão do navegador/
+    padding: 0; /Remove os preenchimentos padrão do navegador/
     box-sizing: border-box; /*Garante que bordas não aumentem o tamanho dos elementos */
     font-family: Arial, Helvetica, sans-serif;
 }
 body{
-    background-color:rgb(237, 202, 221);
+    background-color:rgba(112, 46, 46, 0.97);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    background-color: rgb(237, 202, 221);
+    background-color: rgba(210, 205, 193, 0.97);
 }
 
 /* Estilizar a barra de navegação */
 .navbar
 {
-    background-color: #ed07ac;
+    background-color: #042a0f;
     color: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px 5%;
-    box-shadow: 0 2px 5px rgba(255, 0, 179, 0.97);
+    box-shadow: 0 2px 5pxr rgba(19, 67, 28, 0.97);
 }
 .navbar ul {
     display: flex;
@@ -41,9 +41,9 @@ body{
     transition: 0.4s; 
 }
 .navbar ul li a:hover{
-    background-color: white; /*adiciona um fundo branco*/
-    color: #ed07ac; /* adiciona uma cor diferente ao texto*/
-    box-shadow: 0px 4px 10pxr rgba(255, 0, 179, 0.97);
+    background-color: white; /adiciona um fundo branco/
+    color: #088e1a; /* adiciona uma cor diferente ao texto*/
+    box-shadow: 0px 4px 10pxr rgba(19, 67, 28, 0.97);
     /*0px -> move na horizontal
     4px -> move na vertical
     10px -> desfoque de 10px na sombra
@@ -65,7 +65,7 @@ rgba muda para cor preta e uma transparencia de 30%
     height: 400px; /* ALTURA FIXA DO CARROSSEL */
     overflow: hidden; /*ESCONDE O QUE TIVER FORA DA CAIXA (AS OUTRAS FOTOS) */
     border-radius: 10px; /*ARREDONDAR OS CANTOS DA IMAGEM */
-    box-shadow: 0 10px 20px rgba(255, 0, 179, 0.97); /*SOMBRA PRA DAR PROFUDINDADE */
+    box-shadow: 0 10px 20px rgba(19, 67, 28, 0.97); /*SOMBRA PRA DAR PROFUDINDADE */
 }
 .slider-content
 {
@@ -112,10 +112,10 @@ rgba muda para cor preta e uma transparencia de 30%
 .manual-btn {
     border: 2px solid white;
     padding: 5px; /*tamanho do botão */
-    border-radius: 10px; /*Distância entre as bolinhas*/
+    border-radius: 10px; /Distância entre as bolinhas/
     cursor: pointer;
     margin-left: 10px; /*Distância entre as bolinhas */
-    transition: 0.3s; /*Suaviza a mudança de cor do hover*/
+    transition: 0.3s; /Suaviza a mudança de cor do hover/
  }
  .manual-btn:hover{
     background-color:white /*muda a cor (por completo) quando clicar */
@@ -123,7 +123,7 @@ rgba muda para cor preta e uma transparencia de 30%
 
  
  .titulo{
-    background-color:#ed07ac;
+    background-color: #042a0f;
     padding: 40px;
     margin: 40px auto;
     width: 80%;
@@ -135,8 +135,8 @@ rgba muda para cor preta e uma transparencia de 30%
  }
 
  .rodape-principal{
-    background-color:#ed07ac;
-    color: white;
+    background-color:#ffffff;
+    color:  #042a0f;
     padding: 40px 0 20px 0;
     margin-top: 50px;
  }
@@ -155,7 +155,7 @@ rgba muda para cor preta e uma transparencia de 30%
     opacity: 0.8;
  }
  .links-sociais a {
-    color: white;
+    color:  rgb(23, 23, 23);
     text-decoration: none;
     margin: 0 15px;
     font-weight: bold;
@@ -163,7 +163,7 @@ rgba muda para cor preta e uma transparencia de 30%
  }
  .links-sociais a:hover {
     color:blueviolet;
-    text-shadow: 0 0 5px rgba(255, 0, 179, 0.97);
+    text-shadow: 0 0 5px  rgb(23, 23, 23);
  }
 .rodape-inferior
 {
@@ -200,4 +200,3 @@ rgba muda para cor preta e uma transparencia de 30%
     font-size: 20px;
     display: flex;
 }
-
